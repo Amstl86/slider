@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Slider</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="slider">
+                <div class="block-text">
+                    <h1 class="block-text__title">Completed projects</h1>
+                    <p class="block-text__subtitle">Only a small part of the work by our company is presented on 
+                        the site. For 14 years on in the construction market we have made happy more than
+                        1000 families
+                    </p>
+                    <div class="block-parametrs">
+                        <div class="parametrs-items">
+                            <div class="parametrs-item">
+                                <h2 class="parametrs-item__title">City:</h2>
+                                <p class="parametrs-item__subtitle" id="slide-city">Rostov-on-Don LCD admiral</p>
+                            </div>
+                            <div class="parametrs-item">
+                                <h2 class="parametrs-item__title">Repair time:</h2>
+                                <p class="parametrs-item__subtitle" id="slide-time">3.5 months</p>
+                            </div>
+                        </div>
+                        <div class="parametrs-items">
+                            <div class="parametrs-item">
+                                <h2 class="parametrs-item__title">Apartament area:</h2>
+                                <p class="parametrs-item__subtitle" id="slide-area">81 m2</p>
+                            </div>
+                            <div class="parametrs-item">
+                                <h2 class="parametrs-item__title">Repair cost:</h2>
+                                <p class="parametrs-item__subtitle" id="slide-cost">Upon request</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-control">
+                        <a class="arrow-left">
+                            <img src="./images/slider1.svg" alt="стрелка">
+                        </a>
+                        <div class="dots">
+                            <div class="dots__item" data-id="0"></div>
+                            <div class="dots__item" data-id="1"></div>
+                            <div class="dots__item" data-id="2"></div>
+                        </div>
+                        <a class="arrow-right">
+                            <img src="./images/slider2.svg" alt="стрелка">
+                        </a>
+                    </div>
+                </div>
+                <div class="block-image">
+                    <div class="navigation">
+                        <ul class="navigation__list">
+                            <li class="list-item"><a class="list-item__link" data-id="0">Rostov-on-don, admiral</a></li>
+                            <li class="list-item"><a class="list-item__link" data-id="1">Sochi thieves</a></li>
+                            <li class="list-item"><a class="list-item__link" data-id="2">Rostov-on-Don patriotic</a></li>
+                        </ul>
+                    </div>
+                    <div class="slider-image">
+                        <img id="slide-image" src="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
